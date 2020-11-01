@@ -1,0 +1,20 @@
+TEST CASE 1:
+ips_to_hosts = {
+	'142.250.72.238': 'google.com',
+	'1.0.0.1': 'one.one.one.one',
+	'13.91.40.166': 'logmein.com'}
+known_hosts = {}
+
+
+TEST CASE 2:
+ips_to_hosts = {}
+known_hosts = {}
+
+
+TEST CASE 3:
+ips_to_hosts = {
+	'142.250.72.238': 'google.com',
+	'142.250.72.238': 'yahoo.com',
+	'1.0.0.1': 'one.one.one.one',
+	'13.91.40.166': 'logmein.com'}
+known_hosts = {}
